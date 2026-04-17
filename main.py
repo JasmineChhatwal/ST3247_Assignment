@@ -271,9 +271,9 @@ _ = simulate(0.2, 0.1, 0.3, N=200, T=5)   # tiny run just to trigger compilation
 print("JIT compilation complete.  All subsequent calls will be fast.")
 
 ##READ DATA
-infected_df = pd.read_csv("infected_timeseries-2.csv")
-rewire_df   = pd.read_csv("rewiring_timeseries-2.csv")
-degree_df   = pd.read_csv("final_degree_histograms-2.csv")
+infected_df = pd.read_csv("infected_timeseries.csv")
+rewire_df   = pd.read_csv("rewiring_timeseries.csv")
+degree_df   = pd.read_csv("final_degree_histograms.csv")
 
 obs_inf = infected_df.groupby("time")["infected_fraction"].mean().values
 obs_rew = rewire_df.groupby("time")["rewire_count"].mean().values
