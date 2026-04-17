@@ -47,9 +47,7 @@ Includes:
 
 ## Requirements
 
-Install required packages before running:
+Install the required packages before running:
 
 ```bash
-! pip install numpy matplotlib seaborn numba joblib scikit-learn scikit-optimize
-
-```
+pip install numpy matplotlib seaborn numba joblib scikit-learn scikit-optimize
