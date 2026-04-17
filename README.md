@@ -50,6 +50,6 @@ Includes:
 Install required packages before running:
 
 ```bash
-pip install numpy matplotlib seaborn numba joblib scikit-learn scikit-optimize
+! pip install numpy matplotlib seaborn numba joblib scikit-learn scikit-optimize
 
 ```
