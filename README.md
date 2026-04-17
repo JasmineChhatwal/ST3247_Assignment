@@ -19,13 +19,13 @@ The focus is on understanding **parameter identifiability**, **effect of summary
 
 ## Repository Structure
 
-This repository contains a data folder 'data' and a single Python script 'main.py':
+This repository contains 3 data files and a single Python script 'main.py':
 
-### `data`
+### Data Files
 Includes:
 1. infection_timeseries.csv
 2. rewiring_timeseries.csv
-3. degree_histograms.csv
+3. final_degree_histograms.csv
    
 ### `main.py`
 Includes:
