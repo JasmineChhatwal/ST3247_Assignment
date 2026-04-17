@@ -4,23 +4,29 @@ This repository contains the implementation and analysis of Approximate Bayesian
 
 ---
 
-## 📌 Overview
+## Overview
 
 The project investigates parameter inference for a stochastic SIR network model using:
 
 - ABC Rejection
-- Sequential Monte Carlo ABC (SMC-ABC)
 - Regression Adjustment
+- Sequential Monte Carlo ABC (SMC-ABC)
 - Bayesian Optimisation for Likelihood-Free Inference (BOLFI)
 
 The focus is on understanding **parameter identifiability**, **effect of summary statistics**, and **posterior refinement**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-This repository contains a single Python script:
+This repository contains a data folder 'data' and a single Python script 'main.py':
 
+### `data`
+Includes:
+1. infection_timeseries.csv
+2. rewiring_timeseries.csv
+3. degree_histograms.csv
+   
 ### `main.py`
 Includes:
 1. **Simulator**
@@ -39,9 +45,11 @@ Includes:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install required packages before running:
 
 ```bash
-pip install numpy matplotlib seaborn numba joblib scikit-learn
+pip install numpy matplotlib seaborn numba joblib scikit-learn scikit-optimize
+
+```
